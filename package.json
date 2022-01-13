@@ -1,0 +1,12 @@
+{
+  "name": "fakebook-splitter",
+  "version": "1.0.0",
+  "description": "",
+  "type" : "module",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Johannes Schneider (neshanjo)",
+  "dependencies": {
+    "csv-parse": "^5.0.4"
+  }
+}
