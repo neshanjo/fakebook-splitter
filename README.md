@@ -9,9 +9,9 @@ Install latest [Node JS LTS version](https://nodejs.org/en/).
 
 Install PDFtk ([Windows+Mac](https://www.pdflabs.com/tools/pdftk-server/), [Linux ](https://wiki.ubuntuusers.de/pdftk/)) and make sure that the `pdftk` command is in the PATH.
 
-Clone this project.
+Clone this project and run `npm install`.
 
-Download index or just clone the repository (`git clone https://github.com/aspiers/book-indices.git`).
+Download index or just clone the index repository (`git clone https://github.com/aspiers/book-indices.git`).
 
 ## Usage
 
