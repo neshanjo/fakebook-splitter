@@ -24,6 +24,11 @@ for (let song of songs) {
     console.log("Skipped.");
     continue;
   }
+  if ( ! song.begin )
+  {
+    console.log("Skipped.");
+    continue;
+  }
   const begin = parseInt(song.begin) + offset;
   const end = song.end ? (parseInt(song.end) + offset) : begin;
   console.log(`  + extracting from page ${begin} to ${end}`);
