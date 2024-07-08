@@ -20,7 +20,7 @@ const songs = parse(fs.readFileSync(csvInput, "utf-8"), {
 
 for (let song of songs) {
   console.log(song);
-  if (!song.title || song.title.startsWith("#") || song.title.includes("photo of")) {
+  if (!song.title || !song.begin || song.title.startsWith("#") || song.title.includes("photo of")) {
     console.log("Skipped.");
     continue;
   }
